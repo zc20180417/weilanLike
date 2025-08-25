@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.Material",
+  "_name": "hsl-sprite",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "d1d7eb77-f73e-4252-8a65-96b6dcf297d4"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "u_h": 0,
+        "u_s": 0,
+        "u_l": 0,
+        "u_color": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        }
+      },
+      "defines": {
+        "USE_TEXTURE": true,
+        "USE_GRAY": false
+      }
+    }
+  }
+}

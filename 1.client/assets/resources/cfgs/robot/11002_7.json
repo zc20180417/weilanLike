@@ -1,0 +1,1604 @@
+{
+	"0": {
+		"id": 0,
+		"cmdType": 0,
+		"gx": 0,
+		"gy": 0,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"1": {
+		"id": 1,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 0,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"2": {
+		"id": 2,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 0,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"3": {
+		"id": 3,
+		"cmdType": 3,
+		"gx": 4,
+		"gy": 2,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"4": {
+		"id": 4,
+		"cmdType": 0,
+		"gx": 0,
+		"gy": 6,
+		"param": 604,
+		"dokill": 0,
+		"time": 0
+	},
+	"5": {
+		"id": 5,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"6": {
+		"id": 6,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"7": {
+		"id": 7,
+		"cmdType": 0,
+		"gx": 4,
+		"gy": 3,
+		"param": 204,
+		"dokill": 0,
+		"time": 0
+	},
+	"8": {
+		"id": 8,
+		"cmdType": 1,
+		"gx": 4,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"9": {
+		"id": 9,
+		"cmdType": 1,
+		"gx": 4,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"10": {
+		"id": 10,
+		"cmdType": 3,
+		"gx": 6,
+		"gy": 2,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"11": {
+		"id": 11,
+		"cmdType": 0,
+		"gx": 5,
+		"gy": 3,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"12": {
+		"id": 12,
+		"cmdType": 2,
+		"gx": 0,
+		"gy": 0,
+		"param": 2,
+		"dokill": 0,
+		"time": 0
+	},
+	"13": {
+		"id": 13,
+		"cmdType": 1,
+		"gx": 5,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"14": {
+		"id": 14,
+		"cmdType": 1,
+		"gx": 5,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"15": {
+		"id": 15,
+		"cmdType": 3,
+		"gx": 6,
+		"gy": 2,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"16": {
+		"id": 16,
+		"cmdType": 3,
+		"gx": 6,
+		"gy": 2,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"17": {
+		"id": 17,
+		"cmdType": 0,
+		"gx": 7,
+		"gy": 3,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"18": {
+		"id": 18,
+		"cmdType": 1,
+		"gx": 7,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"19": {
+		"id": 19,
+		"cmdType": 1,
+		"gx": 7,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"20": {
+		"id": 20,
+		"cmdType": 0,
+		"gx": 6,
+		"gy": 3,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"21": {
+		"id": 21,
+		"cmdType": 1,
+		"gx": 6,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"22": {
+		"id": 22,
+		"cmdType": 1,
+		"gx": 6,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"23": {
+		"id": 23,
+		"cmdType": 3,
+		"gx": 8,
+		"gy": 2,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"24": {
+		"id": 24,
+		"cmdType": 0,
+		"gx": 2,
+		"gy": 3,
+		"param": 304,
+		"dokill": 0,
+		"time": 0
+	},
+	"25": {
+		"id": 25,
+		"cmdType": 1,
+		"gx": 2,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"26": {
+		"id": 26,
+		"cmdType": 1,
+		"gx": 2,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"27": {
+		"id": 27,
+		"cmdType": 0,
+		"gx": 8,
+		"gy": 3,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"28": {
+		"id": 28,
+		"cmdType": 1,
+		"gx": 8,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"29": {
+		"id": 29,
+		"cmdType": 3,
+		"gx": 10,
+		"gy": 3,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"30": {
+		"id": 30,
+		"cmdType": 1,
+		"gx": 8,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"31": {
+		"id": 31,
+		"cmdType": 0,
+		"gx": 9,
+		"gy": 3,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"32": {
+		"id": 32,
+		"cmdType": 1,
+		"gx": 9,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"33": {
+		"id": 33,
+		"cmdType": 1,
+		"gx": 9,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"34": {
+		"id": 34,
+		"cmdType": 3,
+		"gx": 12,
+		"gy": 6,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"35": {
+		"id": 35,
+		"cmdType": 0,
+		"gx": 2,
+		"gy": 2,
+		"param": 704,
+		"dokill": 0,
+		"time": 0
+	},
+	"36": {
+		"id": 36,
+		"cmdType": 3,
+		"gx": 12,
+		"gy": 0,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"37": {
+		"id": 37,
+		"cmdType": 1,
+		"gx": 2,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"38": {
+		"id": 38,
+		"cmdType": 1,
+		"gx": 2,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"39": {
+		"id": 39,
+		"cmdType": 3,
+		"gx": 12,
+		"gy": 5,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"40": {
+		"id": 40,
+		"cmdType": 3,
+		"gx": 10,
+		"gy": 6,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"41": {
+		"id": 41,
+		"cmdType": 3,
+		"gx": 10,
+		"gy": 2,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"42": {
+		"id": 42,
+		"cmdType": 0,
+		"gx": 2,
+		"gy": 4,
+		"param": 504,
+		"dokill": 0,
+		"time": 0
+	},
+	"43": {
+		"id": 43,
+		"cmdType": 1,
+		"gx": 2,
+		"gy": 4,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"44": {
+		"id": 44,
+		"cmdType": 3,
+		"gx": 0,
+		"gy": 1,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"45": {
+		"id": 45,
+		"cmdType": 1,
+		"gx": 2,
+		"gy": 4,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"46": {
+		"id": 46,
+		"cmdType": 3,
+		"gx": 12,
+		"gy": 1,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"47": {
+		"id": 47,
+		"cmdType": 3,
+		"gx": 12,
+		"gy": 3,
+		"param": 0,
+		"dokill": 1,
+		"time": 0
+	},
+	"48": {
+		"id": 48,
+		"cmdType": 0,
+		"gx": 4,
+		"gy": 2,
+		"param": 704,
+		"dokill": 0,
+		"time": 0
+	},
+	"49": {
+		"id": 49,
+		"cmdType": 1,
+		"gx": 4,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"50": {
+		"id": 50,
+		"cmdType": 1,
+		"gx": 4,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"51": {
+		"id": 51,
+		"cmdType": 0,
+		"gx": 5,
+		"gy": 2,
+		"param": 204,
+		"dokill": 0,
+		"time": 0
+	},
+	"52": {
+		"id": 52,
+		"cmdType": 1,
+		"gx": 5,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"53": {
+		"id": 53,
+		"cmdType": 1,
+		"gx": 5,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"54": {
+		"id": 54,
+		"cmdType": 0,
+		"gx": 10,
+		"gy": 4,
+		"param": 504,
+		"dokill": 0,
+		"time": 0
+	},
+	"55": {
+		"id": 55,
+		"cmdType": 1,
+		"gx": 10,
+		"gy": 4,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"56": {
+		"id": 56,
+		"cmdType": 1,
+		"gx": 10,
+		"gy": 4,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"57": {
+		"id": 57,
+		"cmdType": 0,
+		"gx": 10,
+		"gy": 3,
+		"param": 304,
+		"dokill": 0,
+		"time": 0
+	},
+	"58": {
+		"id": 58,
+		"cmdType": 1,
+		"gx": 10,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"59": {
+		"id": 59,
+		"cmdType": 1,
+		"gx": 10,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"60": {
+		"id": 60,
+		"cmdType": 0,
+		"gx": 9,
+		"gy": 6,
+		"param": 304,
+		"dokill": 0,
+		"time": 0
+	},
+	"61": {
+		"id": 61,
+		"cmdType": 1,
+		"gx": 9,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"62": {
+		"id": 62,
+		"cmdType": 0,
+		"gx": 6,
+		"gy": 2,
+		"param": 704,
+		"dokill": 0,
+		"time": 0
+	},
+	"63": {
+		"id": 63,
+		"cmdType": 1,
+		"gx": 6,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"64": {
+		"id": 64,
+		"cmdType": 1,
+		"gx": 6,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"65": {
+		"id": 65,
+		"cmdType": 0,
+		"gx": 7,
+		"gy": 2,
+		"param": 704,
+		"dokill": 0,
+		"time": 0
+	},
+	"66": {
+		"id": 66,
+		"cmdType": 1,
+		"gx": 7,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"67": {
+		"id": 67,
+		"cmdType": 1,
+		"gx": 7,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"68": {
+		"id": 68,
+		"cmdType": 0,
+		"gx": 8,
+		"gy": 2,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"69": {
+		"id": 69,
+		"cmdType": 1,
+		"gx": 8,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"70": {
+		"id": 70,
+		"cmdType": 1,
+		"gx": 8,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"71": {
+		"id": 71,
+		"cmdType": 0,
+		"gx": 9,
+		"gy": 2,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"72": {
+		"id": 72,
+		"cmdType": 1,
+		"gx": 9,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"73": {
+		"id": 73,
+		"cmdType": 1,
+		"gx": 9,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"74": {
+		"id": 74,
+		"cmdType": 0,
+		"gx": 10,
+		"gy": 2,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"75": {
+		"id": 75,
+		"cmdType": 1,
+		"gx": 10,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"76": {
+		"id": 76,
+		"cmdType": 1,
+		"gx": 9,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"77": {
+		"id": 77,
+		"cmdType": 0,
+		"gx": 5,
+		"gy": 6,
+		"param": 304,
+		"dokill": 0,
+		"time": 0
+	},
+	"78": {
+		"id": 78,
+		"cmdType": 1,
+		"gx": 5,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"79": {
+		"id": 79,
+		"cmdType": 1,
+		"gx": 5,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"80": {
+		"id": 80,
+		"cmdType": 0,
+		"gx": 2,
+		"gy": 1,
+		"param": 504,
+		"dokill": 0,
+		"time": 0
+	},
+	"81": {
+		"id": 81,
+		"cmdType": 1,
+		"gx": 2,
+		"gy": 1,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"82": {
+		"id": 82,
+		"cmdType": 1,
+		"gx": 2,
+		"gy": 1,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"83": {
+		"id": 83,
+		"cmdType": 0,
+		"gx": 12,
+		"gy": 5,
+		"param": 604,
+		"dokill": 0,
+		"time": 0
+	},
+	"84": {
+		"id": 84,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 5,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"85": {
+		"id": 85,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 5,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"86": {
+		"id": 86,
+		"cmdType": 1,
+		"gx": 10,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"87": {
+		"id": 87,
+		"cmdType": 0,
+		"gx": 10,
+		"gy": 6,
+		"param": 304,
+		"dokill": 0,
+		"time": 0
+	},
+	"88": {
+		"id": 88,
+		"cmdType": 0,
+		"gx": 8,
+		"gy": 6,
+		"param": 304,
+		"dokill": 0,
+		"time": 0
+	},
+	"89": {
+		"id": 89,
+		"cmdType": 0,
+		"gx": 7,
+		"gy": 6,
+		"param": 304,
+		"dokill": 0,
+		"time": 0
+	},
+	"90": {
+		"id": 90,
+		"cmdType": 0,
+		"gx": 6,
+		"gy": 6,
+		"param": 304,
+		"dokill": 0,
+		"time": 0
+	},
+	"91": {
+		"id": 91,
+		"cmdType": 0,
+		"gx": 4,
+		"gy": 6,
+		"param": 304,
+		"dokill": 0,
+		"time": 0
+	},
+	"92": {
+		"id": 92,
+		"cmdType": 0,
+		"gx": 3,
+		"gy": 6,
+		"param": 404,
+		"dokill": 0,
+		"time": 0
+	},
+	"93": {
+		"id": 93,
+		"cmdType": 1,
+		"gx": 3,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"94": {
+		"id": 94,
+		"cmdType": 1,
+		"gx": 3,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"95": {
+		"id": 95,
+		"cmdType": 1,
+		"gx": 4,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"96": {
+		"id": 96,
+		"cmdType": 1,
+		"gx": 10,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"97": {
+		"id": 97,
+		"cmdType": 1,
+		"gx": 10,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"98": {
+		"id": 98,
+		"cmdType": 1,
+		"gx": 8,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"99": {
+		"id": 99,
+		"cmdType": 1,
+		"gx": 8,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"100": {
+		"id": 100,
+		"cmdType": 1,
+		"gx": 7,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"101": {
+		"id": 101,
+		"cmdType": 1,
+		"gx": 7,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"102": {
+		"id": 102,
+		"cmdType": 1,
+		"gx": 6,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"103": {
+		"id": 103,
+		"cmdType": 1,
+		"gx": 6,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"104": {
+		"id": 104,
+		"cmdType": 1,
+		"gx": 4,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"105": {
+		"id": 105,
+		"cmdType": 0,
+		"gx": 12,
+		"gy": 4,
+		"param": 204,
+		"dokill": 0,
+		"time": 0
+	},
+	"106": {
+		"id": 106,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 4,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"107": {
+		"id": 107,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 4,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"108": {
+		"id": 108,
+		"cmdType": 0,
+		"gx": 0,
+		"gy": 4,
+		"param": 204,
+		"dokill": 0,
+		"time": 0
+	},
+	"109": {
+		"id": 109,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 4,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"110": {
+		"id": 110,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 4,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"111": {
+		"id": 111,
+		"cmdType": 0,
+		"gx": 2,
+		"gy": 6,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"112": {
+		"id": 112,
+		"cmdType": 1,
+		"gx": 2,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"113": {
+		"id": 113,
+		"cmdType": 1,
+		"gx": 2,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"114": {
+		"id": 114,
+		"cmdType": 0,
+		"gx": 0,
+		"gy": 3,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"115": {
+		"id": 115,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"116": {
+		"id": 116,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"117": {
+		"id": 117,
+		"cmdType": 0,
+		"gx": 0,
+		"gy": 2,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"118": {
+		"id": 118,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"119": {
+		"id": 119,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"120": {
+		"id": 120,
+		"cmdType": 0,
+		"gx": 0,
+		"gy": 5,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"121": {
+		"id": 121,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 5,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"122": {
+		"id": 122,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 5,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"123": {
+		"id": 123,
+		"cmdType": 0,
+		"gx": 0,
+		"gy": 1,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"124": {
+		"id": 124,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 1,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"125": {
+		"id": 125,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 1,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"126": {
+		"id": 126,
+		"cmdType": 0,
+		"gx": 11,
+		"gy": 6,
+		"param": 504,
+		"dokill": 0,
+		"time": 0
+	},
+	"127": {
+		"id": 127,
+		"cmdType": 1,
+		"gx": 11,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"128": {
+		"id": 128,
+		"cmdType": 1,
+		"gx": 11,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"129": {
+		"id": 129,
+		"cmdType": 0,
+		"gx": 1,
+		"gy": 6,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"130": {
+		"id": 130,
+		"cmdType": 1,
+		"gx": 1,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"131": {
+		"id": 131,
+		"cmdType": 1,
+		"gx": 1,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"132": {
+		"id": 132,
+		"cmdType": 0,
+		"gx": 0,
+		"gy": 0,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"133": {
+		"id": 133,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 0,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"134": {
+		"id": 134,
+		"cmdType": 1,
+		"gx": 0,
+		"gy": 0,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"135": {
+		"id": 135,
+		"cmdType": 0,
+		"gx": 12,
+		"gy": 3,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"136": {
+		"id": 136,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"137": {
+		"id": 137,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"138": {
+		"id": 138,
+		"cmdType": 0,
+		"gx": 12,
+		"gy": 2,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"139": {
+		"id": 139,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"140": {
+		"id": 140,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"141": {
+		"id": 141,
+		"cmdType": 0,
+		"gx": 12,
+		"gy": 1,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"142": {
+		"id": 142,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 1,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"143": {
+		"id": 143,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 1,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"144": {
+		"id": 144,
+		"cmdType": 0,
+		"gx": 12,
+		"gy": 6,
+		"param": 604,
+		"dokill": 0,
+		"time": 0
+	},
+	"145": {
+		"id": 145,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"146": {
+		"id": 146,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"147": {
+		"id": 147,
+		"cmdType": 0,
+		"gx": 12,
+		"gy": 0,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"148": {
+		"id": 148,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 0,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"149": {
+		"id": 149,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 0,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"150": {
+		"id": 150,
+		"cmdType": 2,
+		"gx": 4,
+		"gy": 2,
+		"param": 18,
+		"dokill": 0,
+		"time": 0
+	},
+	"151": {
+		"id": 151,
+		"cmdType": 0,
+		"gx": 4,
+		"gy": 2,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"152": {
+		"id": 152,
+		"cmdType": 1,
+		"gx": 4,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"153": {
+		"id": 153,
+		"cmdType": 1,
+		"gx": 4,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"154": {
+		"id": 154,
+		"cmdType": 2,
+		"gx": 5,
+		"gy": 3,
+		"param": 18,
+		"dokill": 0,
+		"time": 0
+	},
+	"155": {
+		"id": 155,
+		"cmdType": 0,
+		"gx": 5,
+		"gy": 3,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"156": {
+		"id": 156,
+		"cmdType": 1,
+		"gx": 5,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"157": {
+		"id": 157,
+		"cmdType": 1,
+		"gx": 5,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"158": {
+		"id": 158,
+		"cmdType": 2,
+		"gx": 7,
+		"gy": 2,
+		"param": 19,
+		"dokill": 0,
+		"time": 0
+	},
+	"159": {
+		"id": 159,
+		"cmdType": 0,
+		"gx": 7,
+		"gy": 2,
+		"param": 104,
+		"dokill": 0,
+		"time": 0
+	},
+	"160": {
+		"id": 160,
+		"cmdType": 1,
+		"gx": 7,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"161": {
+		"id": 161,
+		"cmdType": 1,
+		"gx": 7,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"162": {
+		"id": 162,
+		"cmdType": 2,
+		"gx": 6,
+		"gy": 2,
+		"param": 19,
+		"dokill": 0,
+		"time": 0
+	},
+	"163": {
+		"id": 163,
+		"cmdType": 0,
+		"gx": 6,
+		"gy": 2,
+		"param": 504,
+		"dokill": 0,
+		"time": 0
+	},
+	"164": {
+		"id": 164,
+		"cmdType": 1,
+		"gx": 6,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"165": {
+		"id": 165,
+		"cmdType": 1,
+		"gx": 6,
+		"gy": 2,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"166": {
+		"id": 166,
+		"cmdType": 2,
+		"gx": 7,
+		"gy": 6,
+		"param": 20,
+		"dokill": 0,
+		"time": 0
+	},
+	"167": {
+		"id": 167,
+		"cmdType": 0,
+		"gx": 7,
+		"gy": 6,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"168": {
+		"id": 168,
+		"cmdType": 1,
+		"gx": 7,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"169": {
+		"id": 169,
+		"cmdType": 1,
+		"gx": 7,
+		"gy": 6,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"170": {
+		"id": 170,
+		"cmdType": 2,
+		"gx": 12,
+		"gy": 4,
+		"param": 20,
+		"dokill": 0,
+		"time": 0
+	},
+	"171": {
+		"id": 171,
+		"cmdType": 0,
+		"gx": 12,
+		"gy": 4,
+		"param": 802,
+		"dokill": 0,
+		"time": 0
+	},
+	"172": {
+		"id": 172,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 4,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"173": {
+		"id": 173,
+		"cmdType": 1,
+		"gx": 12,
+		"gy": 4,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"174": {
+		"id": 174,
+		"cmdType": 2,
+		"gx": 9,
+		"gy": 3,
+		"param": 20,
+		"dokill": 0,
+		"time": 0
+	},
+	"175": {
+		"id": 175,
+		"cmdType": 0,
+		"gx": 9,
+		"gy": 3,
+		"param": 204,
+		"dokill": 0,
+		"time": 0
+	},
+	"176": {
+		"id": 176,
+		"cmdType": 1,
+		"gx": 9,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	},
+	"177": {
+		"id": 177,
+		"cmdType": 1,
+		"gx": 9,
+		"gy": 3,
+		"param": 0,
+		"dokill": 0,
+		"time": 0
+	}
+}

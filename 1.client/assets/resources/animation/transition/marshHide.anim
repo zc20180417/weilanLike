@@ -1,0 +1,201 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "marshHide",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.0166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "littleBat": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -1494.281,
+                -749.939,
+                0
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                1869.384,
+                944.956,
+                0
+              ]
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "bigBat": {
+        "props": {
+          "position": [
+            {
+              "frame": 1.1833333333333333,
+              "value": [
+                -912.239,
+                -419.742,
+                0
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                2054.966,
+                1093.273,
+                0
+              ]
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "midBat": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.6666666666666666,
+              "value": [
+                -1159.731,
+                -316.481,
+                0
+              ]
+            },
+            {
+              "frame": 3.0166666666666666,
+              "value": [
+                2166.681,
+                1257.204,
+                0
+              ]
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "bgNode": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -1173.639,
+                -752.646,
+                0
+              ]
+            },
+            {
+              "frame": 3.0166666666666666,
+              "value": [
+                1350.51,
+                633.508,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "mask": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1.5333333333333334,
+              "value": 255
+            },
+            {
+              "frame": 3,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "little2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -1573.22,
+                -799.009,
+                0
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                2411.831,
+                1456.56,
+                0
+              ]
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "little3": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -2179.075,
+                -1094.411,
+                0
+              ]
+            },
+            {
+              "frame": 3.0166666666666666,
+              "value": [
+                2627.373,
+                1476.902,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 2.3333333333333335,
+      "func": "onMid",
+      "params": []
+    }
+  ]
+}

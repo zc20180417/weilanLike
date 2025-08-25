@@ -1,0 +1,302 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "tower_3_3_attack",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": {
+      "__id__": 6
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 50,
+      "height": 26
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "New Node",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 514,
+      "height": 202
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.1,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "8069b4aa-8be7-4c4b-82d7-40e1bdf1a7ae"
+    },
+    "_type": 0,
+    "_sizeMode": 2,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": false,
+    "_atlas": {
+      "__uuid__": "6757e8df-b202-463b-8b05-a3731b44cfaa"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "b9452771-347d-49bc-9d90-d63856d24d28"
+    },
+    "fileId": "30kVhR1SVDqYue3cO3E0kl",
+    "sync": false
+  },
+  {
+    "__type__": "dc2e1NNPltGO4wwuGi8mxFY",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "needPause": false,
+    "spriteFrames": [
+      {
+        "__uuid__": "b4700dc8-d967-414f-b27f-6698c56cf480"
+      },
+      {
+        "__uuid__": "db3d710b-bc1b-4b3d-9ae8-fc60a78d4935"
+      },
+      {
+        "__uuid__": "88a7cbad-a5da-4521-b15f-ad910b7e267e"
+      },
+      {
+        "__uuid__": "15c254ec-6c73-4850-a18f-41d628fd3426"
+      },
+      {
+        "__uuid__": "cd9ab6f5-2a99-4f6f-87fa-5bc33d32f72e"
+      },
+      {
+        "__uuid__": "9a930db5-68ac-4721-9b1e-84abd58c0cac"
+      },
+      {
+        "__uuid__": "8069b4aa-8be7-4c4b-82d7-40e1bdf1a7ae"
+      },
+      {
+        "__uuid__": "f5b69651-ba99-4cfb-b5c0-b1e40f3950f3"
+      },
+      {
+        "__uuid__": "a692d67a-272f-43f4-9969-4e04afe91f94"
+      },
+      {
+        "__uuid__": "9318ea9a-7a8b-4bba-bafc-a832f65c50b0"
+      },
+      {
+        "__uuid__": "e659c045-aed6-4717-b282-2522a53d6ffc"
+      },
+      {
+        "__uuid__": "a282f8c7-cb8f-4966-877b-152cd528a2d9"
+      },
+      {
+        "__uuid__": "6083984c-a04b-40bd-ab8c-6eded2a1acc2"
+      },
+      {
+        "__uuid__": "91426391-b1ac-4242-b226-6e9a1d7da54b"
+      },
+      {
+        "__uuid__": "cd0ecd9a-e388-4719-99a1-c50a103b357e"
+      },
+      {
+        "__uuid__": "84a03d2e-904b-4bee-9a94-c92d19715ade"
+      },
+      {
+        "__uuid__": "32d0e295-9f84-4ab9-9099-3d921beb1657"
+      },
+      {
+        "__uuid__": "3099920b-fa35-41b0-86c2-a2dbb7b05a28"
+      },
+      {
+        "__uuid__": "c8aa921d-5abe-4bcb-82fb-7fce06011df7"
+      },
+      {
+        "__uuid__": "307e4e64-7858-49d1-8dc5-05082014da38"
+      },
+      {
+        "__uuid__": "6d0356e3-87ad-4009-9aba-d4d4142d3376"
+      },
+      {
+        "__uuid__": "5a310c84-57d1-480e-94ca-64846c7cbc16"
+      },
+      {
+        "__uuid__": "49b916f7-495b-4791-b0f0-e30b78a0c9f0"
+      },
+      {
+        "__uuid__": "017b15a1-0eb6-4f5a-a78b-7da9e6983f2a"
+      },
+      {
+        "__uuid__": "fd7dc089-baa1-4ef6-89a8-7e6a6cf42c63"
+      },
+      {
+        "__uuid__": "713c126a-bc35-4f15-bb41-d43e37a75721"
+      },
+      {
+        "__uuid__": "bbf57be7-7251-42a8-9c37-e1285607c48a"
+      },
+      {
+        "__uuid__": "67db4a2f-6cfa-4379-8d0c-a9612b3cc27f"
+      }
+    ],
+    "sprite": {
+      "__id__": 3
+    },
+    "frameInterval": 40,
+    "isPlayingOnLoad": true,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "b9452771-347d-49bc-9d90-d63856d24d28"
+    },
+    "fileId": "c8gTyef4RNIo5Lp7JcdjM9",
+    "sync": false
+  }
+]

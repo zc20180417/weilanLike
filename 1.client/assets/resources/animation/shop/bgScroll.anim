@@ -1,0 +1,97 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bgScroll",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 0,
+  "curveData": {
+    "paths": {
+      "bg": {
+        "props": {
+          "eulerAngles": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec3",
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "curve": [
+                0.48,
+                0.04,
+                0.6489125124927717,
+                1.3137494253693103
+              ]
+            },
+            {
+              "frame": 1,
+              "value": {
+                "__type__": "cc.Vec3",
+                "x": 0,
+                "y": 720,
+                "z": 0
+              }
+            }
+          ]
+        }
+      },
+      "bg/bg_back": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": true
+            },
+            {
+              "frame": 0.6833333333333333,
+              "value": false
+            }
+          ]
+        }
+      },
+      "bg/icon": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": false
+            },
+            {
+              "frame": 0.6833333333333333,
+              "value": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.23333333333333334,
+      "func": "onBgHide",
+      "params": []
+    },
+    {
+      "frame": 0.6833333333333333,
+      "func": "onBgShow",
+      "params": []
+    },
+    {
+      "frame": 1,
+      "func": "aniEnd",
+      "params": []
+    }
+  ]
+}

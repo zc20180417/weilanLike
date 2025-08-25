@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "normalX",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "img_redpacket_x1": {
+        "comps": {
+          "cc.Sprite": {
+            "fillRange": [
+              {
+                "frame": 0,
+                "value": -1
+              }
+            ]
+          }
+        }
+      },
+      "img_redpacket_x2": {
+        "comps": {
+          "cc.Sprite": {
+            "fillRange": [
+              {
+                "frame": 0,
+                "value": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,140 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "sandOpen",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.1666666666666665,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "front": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -5722.913,
+                242.115,
+                0
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                -645.732,
+                227.451,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255,
+              "curve": "quadOut"
+            },
+            {
+              "frame": 2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "mask": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "mid": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                -2138,
+                -854,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255,
+              "curve": "quadOut"
+            },
+            {
+              "frame": 2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "particlesystem": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "black_sand": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "stopParticle",
+      "params": []
+    },
+    {
+      "frame": 1,
+      "func": "onShowHalf",
+      "params": []
+    },
+    {
+      "frame": 2.1666666666666665,
+      "func": "onEnd",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }
+        alphaThreshold: { value: 0.5 }
+        u_h: { value: 0,editor: { range: [0,360,0.01]}}
+        u_s: { value: 0,editor: { range: [-1,1,0.01]}}
+        u_l: { value: 0,editor: { range: [-1,1,0.01]}}
+        u_color: { value: [1,1,1,1], editor: { type: color}}
+}%
+
+CCProgram vs %{
+
+precision highp float;
+
+#include <cc-global>
+#include <cc-local>
+
+in vec3 a_position;
+in vec4 a_color;
+#if USE_TINT
+  in vec4 a_color0;
+#endif
+
+in vec2 a_uv0;
+out vec2 v_uv0;
+
+out vec4 v_light;
+#if USE_TINT
+  out vec4 v_dark;
+#endif
+
+void main () {
+  mat4 mvp;
+  
+  #if CC_USE_MODEL
+    mvp = cc_matViewProj * cc_matWorld;
+  #else
+    mvp = cc_matViewProj;
+  #endif
+
+  v_uv0 = a_uv0;
+
+  v_light = a_color;
+  #if USE_TINT
+    v_dark = a_color0;
+  #endif
+
+  gl_Position = mvp * vec4(a_position, 1);
+}
+
+}%
+
+CCProgram fs %{
+
+precision highp float;
+
+uniform sampler2D texture;
+in vec2 v_uv0;
+
+in vec4 v_light;
+#if USE_TINT
+  in vec4 v_dark;
+#endif
+
+#include <alpha-test>
+#include <texture>
+
+uniform FS_BLOCK{
+    vec4 u_color;
+	  float u_brightness;
+    float u_h;
+    float u_s;
+    float u_l;
+};
+
+  void hsl2Rgb(in vec3 hsl,out vec3 rgb){
+    float c = (1.0-abs(2.0*hsl.z-1.0))*hsl.y;
+    float x = c*(1.0-abs(mod(hsl.x/60.0,2.0)-1.0));
+    float m = hsl.z-c*0.5;
+    float r=0.0;
+    float g=0.0;
+    float b=0.0;
+    if(hsl.x<60.0){
+      r=c;g=x;
+    }else if(hsl.x<120.0){
+      r=x;g=c;
+    }else if(hsl.x<180.0){
+      g=c;b=x;
+    }else if(hsl.x<240.0){
+      g=x;b=c;
+    }else if(hsl.x<300.0){
+      r=x;b=c;
+    }else if(hsl.x<=360.0){
+      r=c;b=x;
+    }
+
+    rgb.r=r+m;
+    rgb.g=g+m;
+    rgb.b=b+m;
+  }
+
+  void rgb2Hsl(in vec3 rgb,out vec3 hsl){
+    float cMax=max(rgb.r,max(rgb.g,rgb.b));
+    float cMin=min(rgb.r,min(rgb.g,rgb.b));
+    float dC=cMax-cMin;
+
+    hsl.z=(cMax+cMin)*0.5;
+
+    if(dC==0.0){
+      hsl.x=0.0;
+    }else if(cMax==rgb.r){
+      hsl.x=60.0*mod((rgb.g-rgb.b)/dC,6.0);
+    }else if(cMax==rgb.g){
+      hsl.x=60.0*((rgb.b-rgb.r)/dC+2.0);
+    }else{
+      hsl.x=60.0*((rgb.r-rgb.g)/dC+4.0);
+    }
+
+    if(dC==0.0){
+      hsl.y=0.0;
+    }else {
+      hsl.y=dC/(1.0-abs(2.0*hsl.z-1.0));
+    }
+  }
+
+void main () {
+  vec4 texColor = vec4(1.0);
+  CCTexture(texture, v_uv0, texColor);
+  vec4 finalColor;
+
+  #if USE_TINT
+    finalColor.a = v_light.a * texColor.a;
+    finalColor.rgb = ((texColor.a - 1.0) * v_dark.a + 1.0 - texColor.rgb) * v_dark.rgb + texColor.rgb * v_light.rgb;
+  #else
+    finalColor = texColor * v_light;
+  #endif
+
+    vec3 hsl=vec3(0,0,0);
+    vec3 rgb=vec3(0,0,0);
+
+    #if USE_GRAY
+      //去色
+      float gray = 0.2126*finalColor.r + 0.7152*finalColor.g + 0.0722*finalColor.b;
+      finalColor.r=finalColor.g=finalColor.b=gray;
+    #endif
+    if (u_h != 0.0 || u_s != 0.0 || u_l != 0.0) {
+      rgb2Hsl(finalColor.rgb,hsl);
+      hsl.x=mod(u_h+hsl.x+360.0,360.0);
+      hsl.y=clamp(u_s+hsl.y,0.0,1.0);
+      hsl.z=clamp(u_l+hsl.z,0.0,1.0);
+      hsl2Rgb(hsl,rgb);
+
+      finalColor.rgb=rgb;
+    }
+    finalColor.rgb*=u_color.rgb;
+
+  //叠加一个高光
+  finalColor.rgb+=finalColor.a* vec3(u_brightness);
+
+  ALPHA_TEST(finalColor);
+
+  gl_FragColor = finalColor;
+}
+
+}%

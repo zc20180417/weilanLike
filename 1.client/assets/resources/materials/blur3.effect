@@ -1,0 +1,79 @@
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }
+        blur: { value: 1.0 }
+        textureSize: { value: [1 , 1]}
+}%
+
+CCProgram vs %{
+
+precision highp float;
+
+#include <cc-global>
+
+in vec3 a_position;
+
+in mediump vec2 a_uv0;
+out mediump vec2 v_uv0;
+
+in vec4 a_color;
+out vec4 v_color;
+
+void main () {
+  gl_Position = cc_matViewProj * vec4(a_position, 1);
+  v_uv0 = a_uv0;
+  v_color = a_color;
+}
+
+}%
+
+CCProgram fs %{
+
+precision highp float;
+
+#include <texture>
+
+#if USE_TEXTURE
+  in vec2 v_uv0;
+  in vec4 v_color;
+  uniform sampler2D texture;
+  #endif
+
+uniform block{
+    vec2 textureSize;
+    float blur;
+};
+
+void main()
+{
+    vec4 color = vec4(0.0);
+    vec2 texCoord = v_uv0.xy;
+    vec2 texelSize = vec2(1.0) / textureSize;
+    float totalWeight = 0.0;
+    for (float x = -4.0; x <= 4.0; x += 1.0)
+    {
+        for (float y = -4.0; y <= 4.0; y += 1.0)
+        {
+            float weight = exp(-(x * x + y * y) * 0.01 * blur);
+
+            color += texture2D(texture, texCoord + vec2(x, y) * texelSize) * weight;
+            totalWeight += weight;
+        }
+    }
+
+    color = color / totalWeight;
+
+    gl_FragColor = vec4(color.rgb, texture2D(texture, texCoord).a);
+}
+
+}%

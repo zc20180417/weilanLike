@@ -1,0 +1,80 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "x1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 12,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "img_fenzhen": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1.5,
+              "value": -90
+            },
+            {
+              "frame": 3,
+              "value": -180
+            },
+            {
+              "frame": 3.0166666666666666,
+              "value": -180
+            },
+            {
+              "frame": 6,
+              "value": -360
+            },
+            {
+              "frame": 12,
+              "value": -720
+            }
+          ]
+        }
+      },
+      "img_shizhen": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 90
+            },
+            {
+              "frame": 12,
+              "value": -270
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 3,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 6,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 9.533333333333333,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 12,
+      "func": "",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.Material",
+  "_name": "water",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "1e6becad-03c8-47bc-aff9-3ab692f49539"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      },
+      "props": {
+        "noiseTexture": {
+          "__uuid__": "31d2f3a6-1d99-46a0-92be-93c1632634c9"
+        }
+      }
+    }
+  }
+}
