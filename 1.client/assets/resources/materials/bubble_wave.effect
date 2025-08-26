@@ -1,0 +1,111 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.  
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }
+        noiseTexture: { value: white}
+        alphaThreshold: { value: 0.5 }
+        noiseMapWidth: { value: 0 }
+        noiseMapHeght: { value: 0 }
+}%
+
+
+CCProgram vs %{
+  precision highp float;
+
+  #include <cc-global>
+  #include <cc-local>
+
+  in vec3 a_position;
+  in vec4 a_color;
+  out vec4 v_color;
+
+  #if USE_TEXTURE
+  in vec2 a_uv0;
+  out vec2 v_uv0;
+  #endif
+
+  void main () {
+    vec4 pos = vec4(a_position, 1);
+
+    #if CC_USE_MODEL
+    pos = cc_matViewProj * cc_matWorld * pos;
+    #else
+    pos = cc_matViewProj * pos;
+    #endif
+
+    #if USE_TEXTURE
+    v_uv0 = a_uv0;
+    #endif
+
+    v_color = a_color;
+
+    gl_Position = pos;
+  }
+}%
+
+
+CCProgram fs %{
+  precision highp float;
+  
+  #include <alpha-test>
+  #include <texture>
+
+  in vec4 v_color;
+
+  #if USE_TEXTURE
+  in vec2 v_uv0;
+  uniform sampler2D texture;
+  #endif
+
+  uniform wave{
+    float time; //游戏时间
+    float width;
+    float height;
+    float noiseMapWidth;
+    float noiseMapHeght;
+  };  
+
+  //噪声图
+  uniform sampler2D noiseTexture;  
+  //波动速度
+  float waveSpeed=0.1;
+  //偏移幅度
+  float rangeX=0.1;
+  float rangeY=0.01;
+  void main () {
+    vec4 o = vec4(1, 1, 1, 1);
+
+    // vec2 screenUV=vec2((1.0+uvPos.x)/2.0,(1.0+uvPos.y)/2.0);
+
+    //取噪声图的偏移
+    vec4 noiseTex = vec4(1, 1, 1, 1);
+    float ox=v_uv0.x*width/noiseMapWidth;
+    float oy=v_uv0.y*height/noiseMapHeght;
+    CCTexture(noiseTexture,vec2(ox+time*waveSpeed,oy),noiseTex);
+    vec2 offset = vec2(noiseTex.r, noiseTex.g);
+    offset = (offset-0.5)*2.0;
+    offset.x*=rangeX;
+    offset.y*=rangeY;
+
+    #if USE_TEXTURE
+      CCTexture(texture, v_uv0+offset, o);
+      // CCTexture(texture, v_uv0, o);
+    #endif
+
+    o *= v_color;
+
+    ALPHA_TEST(o);
+
+    gl_FragColor = o;
+  }
+}%

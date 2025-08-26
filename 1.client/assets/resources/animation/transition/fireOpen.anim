@@ -1,0 +1,96 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fireOpen",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.0166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "front": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                138.186,
+                -144.746,
+                0
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                -2340.097,
+                2111.391,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255,
+              "curve": "quadOut"
+            },
+            {
+              "frame": 2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "mask": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 150
+            },
+            {
+              "frame": 2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "particlesystem": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "stopParticle",
+      "params": []
+    },
+    {
+      "frame": 1,
+      "func": "onShowHalf",
+      "params": []
+    },
+    {
+      "frame": 2.0166666666666666,
+      "func": "onEnd",
+      "params": []
+    }
+  ]
+}

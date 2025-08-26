@@ -1,0 +1,297 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "forestHide",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 0,
+  "curveData": {
+    "paths": {
+      "right_top_one": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                688.535,
+                577.489,
+                0
+              ],
+              "curve": "quadOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                293,
+                -97,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "right_down_one": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                846.743,
+                -401.478,
+                0
+              ],
+              "curve": "quadOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                205.904,
+                43.377,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "right_top_three": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                809.535,
+                771.489,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                414,
+                97,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "right_top_two": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                981.535,
+                898.489,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                586,
+                224,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "right_down_three": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                1112.839,
+                -631.855,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                472,
+                -187,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "right_down_two": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                1269.839,
+                -623.855,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                629,
+                -179,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "left_top_one": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -851.727,
+                403.099,
+                0
+              ],
+              "curve": "quadOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                -205.236,
+                -43.805,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "left_down_one": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -700.201,
+                -577.724,
+                0
+              ],
+              "curve": "quadOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                -293,
+                97,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "left_top_three": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -1118.491,
+                633.904,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                -472,
+                187,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "left_top_two": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -1275.491,
+                625.904,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                -629,
+                179,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "left_down_three": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -821.201,
+                -771.724,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                -414,
+                -97,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "left_down_two": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -993.201,
+                -898.724,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                -586,
+                -224,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1,
+      "func": "onMid",
+      "params": []
+    }
+  ]
+}

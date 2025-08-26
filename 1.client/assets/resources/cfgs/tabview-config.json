@@ -1,0 +1,15 @@
+{
+    "active-hallview": [
+        "prefabs/ui/activity/Sign",
+        "prefabs/ui/activity/ZeroGoPage",
+        "prefabs/ui/activity/DailyGiftPage",
+        "prefabs/ui/activity/LiCaiTapPage",
+        "prefabs/ui/activity/DailyActiveTapPage",
+        "prefabs/ui/activity/DailyEquipActiveTapPage",
+        "prefabs/ui/activity/WeekDiscountTapPage",
+        "prefabs/ui/activity/WeekRechargePage",
+        "prefabs/ui/activity/ContinuousRechargePage",
+        "prefabs/ui/activity/DayLoginPage",
+        "prefabs/ui/activity/OnlineTimePage"
+    ]
+}

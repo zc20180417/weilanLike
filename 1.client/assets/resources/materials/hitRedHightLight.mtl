@@ -1,0 +1,19 @@
+{
+  "__type__": "cc.Material",
+  "_name": "hitRedHightLight",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "6a55ba34-55fb-430c-9af3-acfa4ac10399"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {},
+      "defines": {
+        "USE_TEXTURE": true,
+        "USE_ALPHA_TEST": false
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.Material",
+  "_name": "hollowout-circle",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "627050e4-6336-43b4-8a45-04bf988c59d5"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {},
+      "props": {
+        "size": {
+          "__type__": "cc.Vec2",
+          "x": 200,
+          "y": 200
+        },
+        "radius": 0.06,
+        "feather": 0.05,
+        "center": {
+          "__type__": "cc.Vec2",
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  }
+}

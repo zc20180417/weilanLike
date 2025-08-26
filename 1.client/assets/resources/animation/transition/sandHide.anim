@@ -1,0 +1,119 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "sandHide",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 0,
+  "curveData": {
+    "paths": {
+      "front": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -7851.891,
+                284.871,
+                0
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                -1386.764,
+                63.826,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "mask": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "mid": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "quadIn"
+            },
+            {
+              "frame": 2,
+              "value": 150
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ],
+              "motionPath": [],
+              "curve": "quadIn"
+            },
+            {
+              "frame": 2,
+              "value": [
+                -2138,
+                -854
+              ]
+            }
+          ]
+        }
+      },
+      "black_sand": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1,
+      "func": "changeParticleColor",
+      "params": []
+    },
+    {
+      "frame": 2,
+      "func": "onMid",
+      "params": []
+    }
+  ]
+}

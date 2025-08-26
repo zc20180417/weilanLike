@@ -1,0 +1,18 @@
+{
+  "ver": "1.0.27",
+  "uuid": "25f61825-ba92-4d67-9d83-8c8b11ed4178",
+  "importer": "effect",
+  "compiledShaders": [
+    {
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nattribute vec3 a_position;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nattribute vec4 a_color;\nvarying vec4 v_color;\nvoid main () {\n  gl_Position = cc_matViewProj * vec4(a_position, 1);\n  v_uv0 = a_uv0;\n  v_color = a_color;\n}",
+        "frag": "\nprecision highp float;\n#if USE_TEXTURE\n  varying vec2 v_uv0;\n  varying vec4 v_color;\n  uniform sampler2D texture;\n  #endif\nuniform vec2 textureSize;\nuniform float blur;\nvoid main()\n{\n    vec4 color = vec4(0.0);\n    vec2 texCoord = v_uv0.xy;\n    vec2 texelSize = vec2(1.0) / textureSize;\n    float totalWeight = 0.0;\n    for (float x = -4.0; x <= 4.0; x += 1.0)\n    {\n        for (float y = -4.0; y <= 4.0; y += 1.0)\n        {\n            float weight = exp(-(x * x + y * y) * 0.01 * blur);\n            color += texture2D(texture, texCoord + vec2(x, y) * texelSize) * weight;\n            totalWeight += weight;\n        }\n    }\n    color = color / totalWeight;\n    gl_FragColor = vec4(color.rgb, texture2D(texture, texCoord).a);\n}"
+      },
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nin vec3 a_position;\nin mediump vec2 a_uv0;\nout mediump vec2 v_uv0;\nin vec4 a_color;\nout vec4 v_color;\nvoid main () {\n  gl_Position = cc_matViewProj * vec4(a_position, 1);\n  v_uv0 = a_uv0;\n  v_color = a_color;\n}",
+        "frag": "\nprecision highp float;\n#if USE_TEXTURE\n  in vec2 v_uv0;\n  in vec4 v_color;\n  uniform sampler2D texture;\n  #endif\nuniform block{\n    vec2 textureSize;\n    float blur;\n};\nvoid main()\n{\n    vec4 color = vec4(0.0);\n    vec2 texCoord = v_uv0.xy;\n    vec2 texelSize = vec2(1.0) / textureSize;\n    float totalWeight = 0.0;\n    for (float x = -4.0; x <= 4.0; x += 1.0)\n    {\n        for (float y = -4.0; y <= 4.0; y += 1.0)\n        {\n            float weight = exp(-(x * x + y * y) * 0.01 * blur);\n            color += texture2D(texture, texCoord + vec2(x, y) * texelSize) * weight;\n            totalWeight += weight;\n        }\n    }\n    color = color / totalWeight;\n    gl_FragColor = vec4(color.rgb, texture2D(texture, texCoord).a);\n}"
+      }
+    }
+  ],
+  "subMetas": {}
+}

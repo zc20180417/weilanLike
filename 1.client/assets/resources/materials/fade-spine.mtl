@@ -1,0 +1,15 @@
+{
+  "__type__": "cc.Material",
+  "_name": "fade-spine",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "fd43b398-3739-4922-aa6c-971ca88a79a2"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {}
+    }
+  }
+}

@@ -1,0 +1,105 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.  
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }
+        alphaThreshold: { value: 0.5 }
+}%
+
+
+CCProgram vs %{
+  precision highp float;
+
+  #include <cc-global>
+  #include <cc-local>
+
+  in vec3 a_position;
+  in vec4 a_color;
+  out vec4 v_color; 
+  out vec2 worldPos;
+  #if USE_TEXTURE
+  in vec2 a_uv0;
+  out vec2 v_uv0;
+  #endif
+
+  void main () {
+    vec4 pos = vec4(a_position, 1);
+    #if CC_USE_MODEL
+    worldPos=vec2((cc_matWorld*pos).xy);
+    pos = cc_matViewProj * cc_matWorld * pos;
+    #else
+    worldPos=pos.xy;
+    pos = cc_matViewProj * pos;
+    #endif
+
+    #if USE_TEXTURE
+    v_uv0 = a_uv0;
+    #endif
+
+    v_color = a_color;
+
+    gl_Position = pos;
+  }
+}%
+
+
+CCProgram fs %{
+  precision highp float;
+  #include <cc-global>
+  #include <alpha-test>
+  #include <texture>
+
+  in vec4 v_color;
+
+  #if USE_TEXTURE
+  in vec2 v_uv0;
+  uniform sampler2D texture;
+  #endif
+
+  in vec2 worldPos;//当前点的世界坐标
+  
+  uniform Config{
+    vec2 srcPos;//原点
+  };
+
+  //波动函数
+  float wave1(vec2 current, vec2 source,float time) {
+      float len = current.x-source.x;
+      float amplitude = 0.1*sin(4.0*time-0.005*len);
+      return amplitude;
+  }
+
+  float wave2(vec2 current, vec2 source,float time) {
+      float len = current.x-source.x;
+      float amplitude = 0.05*sin(15.0*time-0.005*len);
+      return amplitude;
+  }
+  
+
+  void main () {
+    vec4 o = vec4(1, 1, 1, 1);
+    
+    #if USE_TEXTURE
+      CCTexture(texture, v_uv0, o);
+    #endif
+    o *= v_color; 
+    
+    float offsetY=wave1(worldPos,srcPos,cc_time.x);
+    // offsetY+=wave2(worldPos,srcPos,cc_time.x);
+    float redLine=0.5+offsetY;
+    o*=step(redLine,v_uv0.y);
+
+    ALPHA_TEST(o);
+
+    gl_FragColor = o;
+  }
+}%
